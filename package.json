@@ -5,24 +5,23 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "build": "webpack"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kubowania/battleships.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kubowania/battleships/issues"
-  },
   "homepage": "https://github.com/kubowania/battleships#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "webpack": "^5.36.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack-cli": "^4.6.0"
   }
 }
